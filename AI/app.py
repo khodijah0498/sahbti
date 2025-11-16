@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
 
 # FastAPI app
-app = FastAPI()from fastapi import FastAPI, HTTPException, Request
+app = FastAPI()
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from typing import List
